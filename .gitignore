@@ -6,5 +6,4 @@
 *.kicad_prl
 *.bck
 /LrT16-backups/
-*.pro
-
+*.lck
