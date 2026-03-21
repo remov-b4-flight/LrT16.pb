@@ -1,0 +1,10 @@
+/LrT16_*.proj.zip
+*.kicad_pcb-bak
+*.sch-bak
+*.bak
+/Gerber/
+*.kicad_prl
+*.bck
+/LrT16-backups/
+*.pro
+
