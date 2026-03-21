@@ -61,6 +61,10 @@
       ],
       "drc_exclusions": [
         [
+          "extra_footprint|144000000|192500000|f76616d2-15e6-4fbe-a8f5-af532cf4d1b2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "nonmirrored_text_on_back_layer|108650000|86000000|8f2a6709-854c-4caf-959b-d289d2962128|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -580,7 +584,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
