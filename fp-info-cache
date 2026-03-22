@@ -1,4 +1,4 @@
-26451539067043050
+26453313211833255
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70260,6 +70260,13 @@ rotary encoder
 6
 LrE-6
 SKHLLAA010
+
+
+0
+4
+4
+LrE-6
+UGCT7525AN4
 
 
 0
