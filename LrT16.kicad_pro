@@ -59,20 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "nonmirrored_text_on_back_layer|108650000|86000000|8f2a6709-854c-4caf-959b-d289d2962128|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "nonmirrored_text_on_back_layer|150000000|86000000|a8b5a69a-24fc-4f3a-af15-1ced0fb0d73b|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "nonmirrored_text_on_back_layer|195000000|86000000|5a29cdb1-72f4-490b-b940-70ed3bd8dac4|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -474,6 +461,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
