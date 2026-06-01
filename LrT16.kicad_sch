@@ -12469,12 +12469,6 @@
 		(uuid "5eb16f0d-ef1e-4549-97a1-19cd06ad7236")
 	)
 	(junction
-		(at 292.1 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5eb44624-8cbe-410e-82bf-37555f406681")
-	)
-	(junction
 		(at 148.59 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12539,6 +12533,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f1beb86-67e1-46bf-8c2b-6d1e1485d5c0")
+	)
+	(junction
+		(at 292.1 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fd9253f-5787-408a-9092-49c84ced453b")
 	)
 	(junction
 		(at 41.91 26.67)
@@ -13057,12 +13057,6 @@
 		(uuid "c9421679-5c25-4045-91d4-33ad3527a55f")
 	)
 	(junction
-		(at 281.94 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc15f583-a41b-43af-ba94-a75455506a96")
-	)
-	(junction
 		(at 394.97 339.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13303,20 +13297,20 @@
 		(uuid "578af696-e879-42ef-8152-1cb7ed22145c")
 	)
 	(no_connect
-		(at 304.8 88.9)
-		(uuid "6b40bb97-ad32-4386-8955-8dceb3490913")
-	)
-	(no_connect
 		(at 304.8 116.84)
 		(uuid "6ce41a48-c5e2-4d5f-8548-1c7b5c309a8a")
 	)
 	(no_connect
-		(at 304.8 91.44)
+		(at 304.8 96.52)
 		(uuid "6d69aeb3-228a-4629-9e51-da19b9687026")
 	)
 	(no_connect
 		(at 463.55 350.52)
 		(uuid "89bd1fdd-6a91-474e-8495-7a2ba7eb6260")
+	)
+	(no_connect
+		(at 304.8 104.14)
+		(uuid "8f8cc856-d89d-4ac5-a406-5ce568160af1")
 	)
 	(no_connect
 		(at 496.57 213.36)
@@ -13514,7 +13508,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 57.15) (xy 292.1 71.12)
+			(xy 292.1 22.86) (xy 292.1 57.15)
 		)
 		(stroke
 			(width 0)
@@ -13761,26 +13755,6 @@
 			(type default)
 		)
 		(uuid "10475641-326e-4ac8-9d98-2968ea809678")
-	)
-	(wire
-		(pts
-			(xy 281.94 39.37) (xy 281.94 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1199146e-a60b-416a-b503-e77d6d2892f9")
-	)
-	(wire
-		(pts
-			(xy 292.1 57.15) (xy 299.72 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "124cf6e3-aa73-42d6-8170-ddf412880519")
 	)
 	(wire
 		(pts
@@ -15231,16 +15205,6 @@
 			(type default)
 		)
 		(uuid "477892a1-722e-4cda-bb6c-fcdb8ba5f93e")
-	)
-	(wire
-		(pts
-			(xy 274.32 39.37) (xy 281.94 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "479331ff-c540-41f4-84e6-b48d65171e59")
 	)
 	(wire
 		(pts
@@ -16814,6 +16778,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 57.15) (xy 292.1 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e4b25cc-a5f7-4ae5-a3bd-f0564d75d745")
+	)
+	(wire
+		(pts
 			(xy 121.92 227.33) (xy 152.4 227.33)
 		)
 		(stroke
@@ -17624,16 +17598,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 55.88) (xy 274.32 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "997c2f12-73ba-4c01-9ee0-42e37cbab790")
-	)
-	(wire
-		(pts
 			(xy 43.18 228.6) (xy 43.18 220.98)
 		)
 		(stroke
@@ -17924,16 +17888,6 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 22.86) (xy 292.1 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a24ce0e2-fdd3-4e6a-b754-5dee9713dd27")
-	)
-	(wire
-		(pts
 			(xy 154.94 290.83) (xy 165.1 290.83)
 		)
 		(stroke
@@ -18004,7 +17958,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 39.37) (xy 281.94 71.12)
+			(xy 281.94 22.86) (xy 281.94 71.12)
 		)
 		(stroke
 			(width 0)
@@ -18381,16 +18335,6 @@
 			(type default)
 		)
 		(uuid "b06b3eeb-e0fd-4ab8-acc5-d8acdb9d5fae")
-	)
-	(wire
-		(pts
-			(xy 274.32 46.99) (xy 274.32 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b09666f9-12f1-4ee9-8877-2292c94258ca")
 	)
 	(wire
 		(pts
@@ -20154,7 +20098,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 96.52) (xy 318.77 96.52)
+			(xy 304.8 91.44) (xy 318.77 91.44)
 		)
 		(stroke
 			(width 0)
@@ -20194,7 +20138,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 104.14) (xy 318.77 104.14)
+			(xy 304.8 88.9) (xy 318.77 88.9)
 		)
 		(stroke
 			(width 0)
@@ -20311,6 +20255,16 @@
 			(type default)
 		)
 		(uuid "f03f8905-b874-46b9-a61d-7cb68f28f1b0")
+	)
+	(wire
+		(pts
+			(xy 292.1 57.15) (xy 299.72 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f07a6692-757a-4cc1-8d68-c62de9320428")
 	)
 	(wire
 		(pts
@@ -21503,7 +21457,7 @@
 		(uuid "9e813ec2-d4ce-4e2e-b379-c6fedb4c45db")
 	)
 	(label "SW18"
-		(at 318.77 104.14 0)
+		(at 318.77 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21723,7 +21677,7 @@
 		(uuid "c454102f-dc92-4550-9492-797fc8e6b49c")
 	)
 	(label "SW17"
-		(at 318.77 96.52 0)
+		(at 318.77 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21743,7 +21697,7 @@
 		(uuid "c59a1085-5e35-45a1-9b8b-37beee4e4a79")
 	)
 	(label "DFU"
-		(at 255.27 83.82 0)
+		(at 256.54 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22138,74 +22092,6 @@
 	)
 	(symbol
 		(lib_id "LrE-6-rescue:C-Device")
-		(at 274.32 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c490efe")
-		(property "Reference" "C33"
-			(at 266.7 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 266.7 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 275.2852 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 274.32 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 274.32 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4fe21c75-0ccd-4490-98b1-8c922bb64cdc")
-		)
-		(pin "2"
-			(uuid "226a922f-5ac2-439b-a85a-8f1e92b1c5fa")
-		)
-		(instances
-			(project "LrT16"
-				(path "/b873bc5d-a9af-4bd9-afcb-87ce4d417120"
-					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LrE-6-rescue:C-Device")
 		(at 303.53 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22229,7 +22115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 299.72 37.7952 0)
 			(effects
 				(font
@@ -22361,7 +22247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 299.72 47.9552 0)
 			(effects
 				(font
@@ -22427,7 +22313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 299.72 63.1952 0)
 			(effects
 				(font
@@ -22493,7 +22379,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 299.72 32.7152 0)
 			(effects
 				(font
@@ -22559,7 +22445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 299.72 27.6352 0)
 			(effects
 				(font
@@ -22665,70 +22551,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LrE-6-rescue:GND-power")
-		(at 274.32 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c49307f")
-		(property "Reference" "#PWR037"
-			(at 274.32 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 274.447 60.2742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 274.32 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 274.32 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e2ca9cef-f053-499f-a166-187c41a68d8c")
-		)
-		(instances
-			(project "LrT16"
-				(path "/b873bc5d-a9af-4bd9-afcb-87ce4d417120"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LrE-6-rescue:C-Device")
 		(at 303.53 67.31 270)
 		(unit 1)
@@ -22753,7 +22575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 299.72 68.2752 0)
 			(effects
 				(font
@@ -24054,7 +23876,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 365.252 229.87 90)
 			(effects
 				(font
@@ -24234,7 +24056,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c6aaf87")
-		(property "Reference" "SW10"
+		(property "Reference" "SW9"
 			(at 168.91 78.3082 0)
 			(effects
 				(font
@@ -24300,7 +24122,7 @@
 		(instances
 			(project "LrT16"
 				(path "/b873bc5d-a9af-4bd9-afcb-87ce4d417120"
-					(reference "SW10")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -24316,7 +24138,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c6ab096")
-		(property "Reference" "SW11"
+		(property "Reference" "SW10"
 			(at 166.37 122.7582 0)
 			(effects
 				(font
@@ -24382,7 +24204,7 @@
 		(instances
 			(project "LrT16"
 				(path "/b873bc5d-a9af-4bd9-afcb-87ce4d417120"
-					(reference "SW11")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -24398,7 +24220,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c6ab18a")
-		(property "Reference" "SW12"
+		(property "Reference" "SW11"
 			(at 168.91 168.4782 0)
 			(effects
 				(font
@@ -24464,7 +24286,7 @@
 		(instances
 			(project "LrT16"
 				(path "/b873bc5d-a9af-4bd9-afcb-87ce4d417120"
-					(reference "SW12")
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -24480,7 +24302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c6ab5c2")
-		(property "Reference" "SW13"
+		(property "Reference" "SW12"
 			(at 172.72 215.4682 0)
 			(effects
 				(font
@@ -24546,7 +24368,7 @@
 		(instances
 			(project "LrT16"
 				(path "/b873bc5d-a9af-4bd9-afcb-87ce4d417120"
-					(reference "SW13")
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -24562,7 +24384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c6ab6d3")
-		(property "Reference" "SW14"
+		(property "Reference" "SW13"
 			(at 175.26 263.7282 0)
 			(effects
 				(font
@@ -24628,7 +24450,7 @@
 		(instances
 			(project "LrT16"
 				(path "/b873bc5d-a9af-4bd9-afcb-87ce4d417120"
-					(reference "SW14")
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -24644,7 +24466,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c6ab791")
-		(property "Reference" "SW9"
+		(property "Reference" "SW8"
 			(at 170.18 30.0482 0)
 			(effects
 				(font
@@ -24710,7 +24532,7 @@
 		(instances
 			(project "LrT16"
 				(path "/b873bc5d-a9af-4bd9-afcb-87ce4d417120"
-					(reference "SW9")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -27489,7 +27311,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060a927fa")
-		(property "Reference" "SW15"
+		(property "Reference" "SW14"
 			(at 173.99 310.7182 0)
 			(effects
 				(font
@@ -27555,7 +27377,7 @@
 		(instances
 			(project "LrT16"
 				(path "/b873bc5d-a9af-4bd9-afcb-87ce4d417120"
-					(reference "SW15")
+					(reference "SW14")
 					(unit 1)
 				)
 			)
@@ -27571,7 +27393,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060a92800")
-		(property "Reference" "SW16"
+		(property "Reference" "SW15"
 			(at 175.26 355.1682 0)
 			(effects
 				(font
@@ -27637,7 +27459,7 @@
 		(instances
 			(project "LrT16"
 				(path "/b873bc5d-a9af-4bd9-afcb-87ce4d417120"
-					(reference "SW16")
+					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -28246,7 +28068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 290.322 236.22 90)
 			(effects
 				(font
@@ -28314,7 +28136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 297.942 236.22 90)
 			(effects
 				(font
@@ -28958,7 +28780,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0985599d-74b7-4100-9712-711d6cc4e49c")
-		(property "Reference" "SW5"
+		(property "Reference" "SW3"
 			(at 77.47 169.7482 0)
 			(effects
 				(font
@@ -29024,7 +28846,7 @@
 		(instances
 			(project "LrT16"
 				(path "/b873bc5d-a9af-4bd9-afcb-87ce4d417120"
-					(reference "SW5")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -29039,7 +28861,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bb0ae5a-8d9a-439d-bdb4-fbbab4fd7bf2")
-		(property "Reference" "D11"
+		(property "Reference" "D12"
 			(at 180.086 178.308 0)
 			(effects
 				(font
@@ -29092,7 +28914,7 @@
 		(instances
 			(project "LrT16"
 				(path "/b873bc5d-a9af-4bd9-afcb-87ce4d417120"
-					(reference "D11")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -29123,7 +28945,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 299.72 42.8752 0)
 			(effects
 				(font
@@ -29174,7 +28996,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d99afc0-3f2e-4968-910a-834ac7070371")
-		(property "Reference" "SW7"
+		(property "Reference" "SW6"
 			(at 77.47 308.1782 0)
 			(effects
 				(font
@@ -29240,7 +29062,7 @@
 		(instances
 			(project "LrT16"
 				(path "/b873bc5d-a9af-4bd9-afcb-87ce4d417120"
-					(reference "SW7")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -29339,7 +29161,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 299.72 53.0352 0)
 			(effects
 				(font
@@ -30049,7 +29871,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "246692b2-9db0-4ab7-b7fb-b93cad8e5c6f")
-		(property "Reference" "D12"
+		(property "Reference" "D9"
 			(at 181.356 39.878 0)
 			(effects
 				(font
@@ -30102,7 +29924,7 @@
 		(instances
 			(project "LrT16"
 				(path "/b873bc5d-a9af-4bd9-afcb-87ce4d417120"
-					(reference "D12")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -30666,7 +30488,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 299.72 58.1152 0)
 			(effects
 				(font
@@ -32371,7 +32193,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f8bb7f3-2c33-48c5-9f08-c7c870f0ffd0")
-		(property "Reference" "D15"
+		(property "Reference" "D14"
 			(at 186.436 273.558 0)
 			(effects
 				(font
@@ -32424,7 +32246,7 @@
 		(instances
 			(project "LrT16"
 				(path "/b873bc5d-a9af-4bd9-afcb-87ce4d417120"
-					(reference "D15")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -32914,7 +32736,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e6da0ca-ac02-4607-af1c-5d1c58c12f35")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 76.2 78.3082 0)
 			(effects
 				(font
@@ -32980,7 +32802,7 @@
 		(instances
 			(project "LrT16"
 				(path "/b873bc5d-a9af-4bd9-afcb-87ce4d417120"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -33149,7 +32971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 470.662 57.15 90)
 			(effects
 				(font
@@ -33270,7 +33092,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b3a7f0a-7619-4151-84be-1e8371cc1dfe")
-		(property "Reference" "SW6"
+		(property "Reference" "SW5"
 			(at 77.47 261.1882 0)
 			(effects
 				(font
@@ -33336,7 +33158,7 @@
 		(instances
 			(project "LrT16"
 				(path "/b873bc5d-a9af-4bd9-afcb-87ce4d417120"
-					(reference "SW6")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -33351,7 +33173,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c80e569-ad55-425b-9206-ca4c5f66975a")
-		(property "Reference" "D9"
+		(property "Reference" "D11"
 			(at 177.546 132.588 0)
 			(effects
 				(font
@@ -33404,7 +33226,7 @@
 		(instances
 			(project "LrT16"
 				(path "/b873bc5d-a9af-4bd9-afcb-87ce4d417120"
-					(reference "D9")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -33970,7 +33792,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Horizontal"
 			(at 488.95 210.82 0)
 			(effects
 				(font
@@ -35525,7 +35347,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd56f940-e881-4af8-9dcc-235abf546807")
-		(property "Reference" "SW1"
+		(property "Reference" "SW0"
 			(at 74.93 31.3182 0)
 			(effects
 				(font
@@ -35591,7 +35413,7 @@
 		(instances
 			(project "LrT16"
 				(path "/b873bc5d-a9af-4bd9-afcb-87ce4d417120"
-					(reference "SW1")
+					(reference "SW0")
 					(unit 1)
 				)
 			)
@@ -36017,7 +35839,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce8a0952-d1c6-4600-9d25-07e29169d5f1")
-		(property "Reference" "D14"
+		(property "Reference" "D15"
 			(at 185.166 320.548 0)
 			(effects
 				(font
@@ -36070,7 +35892,7 @@
 		(instances
 			(project "LrT16"
 				(path "/b873bc5d-a9af-4bd9-afcb-87ce4d417120"
-					(reference "D14")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -36350,7 +36172,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d94ad349-3124-46a5-9d29-b78fc54115d3")
-		(property "Reference" "SW8"
+		(property "Reference" "SW7"
 			(at 78.74 356.4382 0)
 			(effects
 				(font
@@ -36416,7 +36238,7 @@
 		(instances
 			(project "LrT16"
 				(path "/b873bc5d-a9af-4bd9-afcb-87ce4d417120"
-					(reference "SW8")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -36564,7 +36386,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dcbf25dc-7e30-4fa6-a400-b474033ff33e")
-		(property "Reference" "SW3"
+		(property "Reference" "SW2"
 			(at 76.2 124.0282 0)
 			(effects
 				(font
@@ -36630,7 +36452,7 @@
 		(instances
 			(project "LrT16"
 				(path "/b873bc5d-a9af-4bd9-afcb-87ce4d417120"
-					(reference "SW3")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
