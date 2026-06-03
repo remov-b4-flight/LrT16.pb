@@ -21166,7 +21166,7 @@
 		)
 		(uuid "6b9f52c7-2482-42c3-9cbb-2ef03b1cfebb")
 	)
-	(label "E1B"
+	(label "E0B"
 		(at 256.54 104.14 0)
 		(effects
 			(font
@@ -21956,7 +21956,7 @@
 		)
 		(uuid "f08895dc-4dcb-4aef-a39b-5a08864cdaaf")
 	)
-	(label "E1A"
+	(label "E0A"
 		(at 256.54 101.6 0)
 		(effects
 			(font
