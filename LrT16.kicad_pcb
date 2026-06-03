@@ -33311,21 +33311,21 @@
 			)
 		)
 	)
-	(gr_text "SWD"
-		(at 134.826331 109.289852 0)
-		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-00005c92b3fb")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.12)
-			)
-		)
-	)
 	(gr_text "Function"
 		(at 104.5 178 0)
 		(layer "F.SilkS")
 		(uuid "5d64d379-d6bf-4499-bf49-d130f0a10189")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "SWD"
+		(at 134.826331 109.289852 0)
+		(layer "F.SilkS")
+		(uuid "00000000-0000-0000-0000-00005c92b3fb")
 		(effects
 			(font
 				(size 1 1)
