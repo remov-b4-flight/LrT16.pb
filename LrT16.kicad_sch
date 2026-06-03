@@ -29095,7 +29095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 496.062 154.94 90)
 			(effects
 				(font
@@ -31937,7 +31937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 497.332 115.57 90)
 			(effects
 				(font
@@ -37011,12 +37011,12 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 486.41 161.29 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f2691b75-cff3-40b1-8178-d5e36bcb7e6a")
 		(property "Reference" "SW18"
 			(at 486.41 153.67 0)
