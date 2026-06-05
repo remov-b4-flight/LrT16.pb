@@ -33643,7 +33643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87669e16-bb94-475a-9909-b9e37036cb5f")
-		(property "Reference" "REF1"
+		(property "Reference" "REF01"
 			(at 482.6 360.6799 0)
 			(effects
 				(font
@@ -33692,7 +33692,7 @@
 		(instances
 			(project "LrT16"
 				(path "/b873bc5d-a9af-4bd9-afcb-87ce4d417120"
-					(reference "REF1")
+					(reference "REF01")
 					(unit 1)
 				)
 			)
